@@ -1,0 +1,10 @@
+express: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
+mongoose: Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a straight-forward, schema-based solution to model your application data.
+dotenv: Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. This is particularly useful for storing configuration in development and production environments.
+cors: CORS (Cross-Origin Resource Sharing) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
+bcrypt: Bcrypt is a password-hashing function designed to securely hash passwords.
+jsonwebtoken: JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. JWTs can be signed using a secret (with HMAC algorithm) or a public/private key pair using RSA or ECDSA.
+cookie-parser: Cookie-parser is a middleware for parsing cookies in request objects. It extracts cookies from the request, parses them into a convenient req.cookies object, and makes them available in your express app.
+multer: Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
+
+n[m i path -]
