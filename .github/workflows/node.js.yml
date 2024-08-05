@@ -25,5 +25,5 @@ jobs:
         echo "${{ secrets.PORT }}" >> .env
         echo "${{ secrets.SECRET_KEY }}" >> .env
         echo "${{ secrets.STRIPE_SECRET_KEY }}" >> .env
-    - run: npm run build # Add this if your project has a build step
+
     - run: pm2 restart BackendAPI
