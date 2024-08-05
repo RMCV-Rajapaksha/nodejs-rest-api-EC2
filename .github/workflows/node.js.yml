@@ -28,5 +28,5 @@ jobs:
         echo "${{ secrets.PORT }}" >> .env
         echo "${{ secrets.SECRET_KEY }}" >> .env
         echo "${{ secrets.STRIPE_SECRET_KEY }}" >> .env
-    - run: pm2 restart BackendAPI
+    - run: pm2 restart actions-runner-api
 
