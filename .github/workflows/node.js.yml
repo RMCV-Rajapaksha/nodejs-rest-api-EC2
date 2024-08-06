@@ -22,11 +22,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: |
-        touch .env
-        echo "${{ secrets.MONGO_URL }}" >> .env
-        echo "${{ secrets.PORT }}" >> .env
-        echo "${{ secrets.SECRET_KEY }}" >> .env
-        echo "${{ secrets.STRIPE_SECRET_KEY }}" >> .env
-    - run: pm2 restart BackendAPI
+
 
