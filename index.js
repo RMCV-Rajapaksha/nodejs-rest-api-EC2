@@ -66,8 +66,8 @@ app.post('/api/checkout', async (req, res) => {
           },
         ],
         mode: 'payment',
-        success_url: "http://localhost:5173",
-        cancel_url: "http://localhost:5173",
+        success_url: "https://devdexfrontend.vercel.app",
+        cancel_url: "https://devdexfrontend.vercel.app",
       });
   
       console.log(session); // Log the session object here
