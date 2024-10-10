@@ -39,6 +39,7 @@ app.use(express.json());
 app.use("/images",express.static(path.join(__dirname,"/images")))
 app.use(cors({
     origin: 'https://devdexfrontend.vercel.app/', // Ensure no trailing slash
+     methods: "GET,POST,PUT,DELETE",
     credentials: true,
 }));
 app.use(cookieParser());
